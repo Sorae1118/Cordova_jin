@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>jQuery Mobile</title>
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+
+<body>
+	<div data-role="page" id="page1">
+		<div data-role="header" data-position="fixed">
+			<h1>소개 페이지</h1>
+			<div data-role="navbar">
+				<ul>
+					<li><a href="#page1" class="ui-btn-active ui-state-persist">소개</a></li>
+					<li><a href="#page2">인적</a></li>
+					<li><a href="#page3">학술</a></li>
+					<li><a href="#page4">경력</a></li>
+				</ul>
+			</div>
+		</div>
+		<div data-role="content">
+
+		</div>
+		<div data-role="footer" data-position="fixed" data-id="footerid1">
+			<div data-role="navbar">
+				<ul>
+					<li><a href="#" data-icon="plus">추가</a></li>
+					<li><a href="#" data-icon="minus">삭제</a></li>
+					<li><a href="#" data-icon="check" class="ui-btn-active ui-state-persist">확인</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<div data-role="page" id="page2">
+		<div data-role="header" data-position="fixed">
+			<h1>소개 페이지</h1>
+			<div data-role="navbar">
+				<ul>
+					<li><a href="#page1">소개</a></li>
+					<li><a href="#page2" class="ui-btn-active ui-state-persist">인적</a></li>
+					<li><a href="#page3">학술</a></li>
+					<li><a href="#page4">경력</a></li>
+				</ul>
+			</div>
+		</div>
+		<div data-role="content">
+			<p>content영역</p>
+			<h1>두번째 페이지</h1>
+		</div>
+		<div data-role="footer" data-position="fixed" data-id="footerid1">
+			<div data-role="navbar">
+				<ul>
+					<li><a href="#" data-icon="plus">추가</a></li>
+					<li><a href="#" data-icon="minus">삭제</a></li>
+					<li><a data-icon="check" class="ui-btn-active ui-state-persist">확인</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<div data-role="page" id="page3">
+		<div data-role="header" data-position="fixed">
+			<h1>소개 페이지</h1>
+			<div data-role="navbar">
+				<ul>
+					<li><a href="#page1">소개</a></li>
+					<li><a href="#page2">인적</a></li>
+					<li><a href="#page3" class="ui-btn-active ui-state-persist">학술</a></li>
+					<li><a href="#page4">경력</a></li>
+				</ul>
+			</div>
+		</div>
+		<div data-role="content">
+			<p>content영역</p>
+			<h1>세번째 페이지</h1>
+		</div>
+		<div data-role="footer" data-position="fixed" data-id="footerid1">
+			<div data-role="navbar">
+				<ul>
+					<li><a href="#" data-icon="plus">추가</a></li>
+					<li><a href="#" data-icon="minus">삭제</a></li>
+					<li><a href="#" data-icon="check" class="ui-btn-active ui-state-persist">확인</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<div data-role="page" id="page4">
+		<div data-role="header" data-position="fixed">
+			<h1>소개 페이지</h1>
+			<div data-role="navbar">
+				<ul>
+					<li><a href="#page1">소개</a></li>
+					<li><a href="#page2">인적</a></li>
+					<li><a href="#page3">학술</a></li>
+					<li><a href="#page4" class="ui-btn-active ui-state-persist">경력</a></li>
+				</ul>
+			</div>
+		</div>
+		<div data-role="content">
+			<p>content영역</p>
+			<h1>세번째 페이지</h1>
+		</div>
+		<div data-role="footer" data-position="fixed" data-id="footerid1">
+			<div data-role="navbar">
+				<ul>
+					<li><a href="#" data-icon="plus">추가</a></li>
+					<li><a href="#" data-icon="minus">삭제</a></li>
+					<li><a href="#" data-icon="check" class="ui-btn-active ui-state-persist">확인</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<script>
+		$(document).on('pagecreate', '#page1', function () {
+			// 다른 HTML 페이지를 불러오고 data-role="content" 영역에 삽입합니다.
+			$('#page1 [data-role="content"]').load('mintro.html', function () {
+				// 페이지 로드가 완료되면 페이지를 초기화합니다.
+				$(this).trigger('create');
+			});
+		});
+		$(document).on('pagecreate', '#page2', function () {
+			// 다른 HTML 페이지를 불러오고 data-role="content" 영역에 삽입합니다.
+			$('#page2 [data-role="content"]').load('minfo.html', function () {
+				// 페이지 로드가 완료되면 페이지를 초기화합니다.
+				$(this).trigger('create');
+			});
+		});
+		$(document).on('pagecreate', '#page3', function () {
+			// 다른 HTML 페이지를 불러오고 data-role="content" 영역에 삽입합니다.
+			$('#page3 [data-role="content"]').load('mstudy.html', function () {
+				// 페이지 로드가 완료되면 페이지를 초기화합니다.
+				$(this).trigger('create');
+			});
+		});
+		$(document).on('pagecreate', '#page4', function () {
+			// 다른 HTML 페이지를 불러오고 data-role="content" 영역에 삽입합니다.
+			$('#page4 [data-role="content"]').load('mcareer.html', function () {
+				// 페이지 로드가 완료되면 페이지를 초기화합니다.
+				$(this).trigger('create');
+			});
+		});
+	</script>
+
+</body>
+
+</html>
