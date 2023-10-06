@@ -1,2 +1,3 @@
 ## 4주차 과제
-![화면 기록 2023-10-06 오후 3 40 55](https://github.com/Sorae1118/Cordova_jin/assets/115053276/62c3dc98-07e6-4583-9d0f-4443926bdab2)
+
+<img width="50%" src="https://github.com/Sorae1118/Cordova_jin/assets/115053276/62c3dc98-07e6-4583-9d0f-4443926bdab2"/>
