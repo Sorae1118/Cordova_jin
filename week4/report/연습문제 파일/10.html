@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .oneline div {
+            float:left;
+        }
+        
+        .box {
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            border: 1px solid silver;
+            width: 100px;
+            height: 100px;
+        }
+    
+        #t1 {
+            background-color: purple;
+            opacity: 0.7;
+        }
+
+        #t2 {
+            background-color: purple;
+            opacity: 0.4;
+        }
+
+        #t3 {
+            background-color: purple;
+            opacity: 0.2;
+        }
+
+        #t4 {
+            background-image: url(google.jpg);
+        }
+
+        #t5 {
+            background-image: url(google.jpg);
+            background-size: 90% 70%;
+            background-repeat: no-repeat;
+            background-position: center left;
+        }
+
+        #t6 {
+            background-image: url(google.jpg);
+            background-size: 20% 20%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="oneline">
+        <div class="box"><h1 id="t1">HTML</h1></div>
+        <div class="box"><h1 id="t2">HTML</h1></div>
+        <div class="box"><h1 id="t3">HTML</h1></div>
+    </div>
+    <div class="oneline">
+        <div class="box" id="t4"><h1>HTML</h1></div>
+        <div class="box" id="t5"><h1>HTML</h1></div>
+        <div class="box" id="t6"><h1>HTML</h1></div>
+    </div>
+</body>
+
+</html>
