@@ -13,7 +13,6 @@
 
 **4주차**
 [나의 소개 페이지 3](https://sorae1118.github.io/Cordova_jin/week4/report/index.html)
-
 <img width="300" src="https://github.com/Sorae1118/Cordova_jin/assets/115053276/62c3dc98-07e6-4583-9d0f-4443926bdab2"/>
 <img width="300" alt="스크린샷 2023-10-06 오후 5 17 11" src="https://github.com/Sorae1118/Cordova_jin/assets/115053276/95383a8f-cfbb-4406-98f5-09cff703bb97">
 <img width="300" alt="스크린샷 2023-10-06 오후 5 17 17" src="https://github.com/Sorae1118/Cordova_jin/assets/115053276/aeb96b6e-b9a5-4f29-84b7-be0d3fd348af">
@@ -21,4 +20,8 @@
 
 **5주차**
 [학교 소개 페이지](https://sorae1118.github.io/Cordova_jin/week5/report/index.html)
-
+<img width="300" src="https://github.com/Sorae1118/Cordova_jin/assets/115053276/b2e26b06-a1e6-49f5-b36a-af5ace26be89"/>
+<img width="300" src="https://github.com/Sorae1118/Cordova_jin/assets/115053276/92699f75-942d-4b2f-b543-e2cb7e8ff481"/>
+<img width="300" src="https://github.com/Sorae1118/Cordova_jin/assets/115053276/22023e0d-0551-445d-b714-26bd0457d899"/>
+<img width="300" src="https://github.com/Sorae1118/Cordova_jin/assets/115053276/b42bc63b-6a02-4011-8964-42cd9aa3fb8e"/>
+<img width="300" src="https://github.com/Sorae1118/Cordova_jin/assets/115053276/acbe11f5-ad52-4fc5-a50c-3a9d0d8d71f0"/>
