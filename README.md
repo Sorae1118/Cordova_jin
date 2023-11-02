@@ -32,3 +32,7 @@
 
 # 9주차
 [학교 소개 페이지 Jquery 응용](https://sorae1118.github.io/Cordova_jin/week9/report/index.html)
+### 미리보기
+<img width="300" src="https://github.com/Sorae1118/Cordova_jin/assets/115053276/4e50d646-21f4-4e85-be35-34ba4184dd21"/>
+
+
