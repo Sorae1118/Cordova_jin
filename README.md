@@ -29,3 +29,6 @@
 <img width="300" src="https://github.com/Sorae1118/Cordova_jin/assets/115053276/22023e0d-0551-445d-b714-26bd0457d899"/>
 <img width="300" src="https://github.com/Sorae1118/Cordova_jin/assets/115053276/b42bc63b-6a02-4011-8964-42cd9aa3fb8e"/>
 <img width="300" src="https://github.com/Sorae1118/Cordova_jin/assets/115053276/acbe11f5-ad52-4fc5-a50c-3a9d0d8d71f0"/>
+
+# 9주차
+[학교 소개 페이지 Jquery 응용](https://sorae1118.github.io/Cordova_jin/week9/report/index.html)
