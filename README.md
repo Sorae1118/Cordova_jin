@@ -6,6 +6,7 @@
 <img width="700" alt="스크린샷 2023-10-25 오전 11 32 16" src="https://github.com/Sorae1118/Cordova_jin/assets/115053276/8c8cf9d8-2df9-4112-89a2-61d60eed6e71">
 <img width="700" alt="스크린샷 2023-10-25 오전 11 32 20" src="https://github.com/Sorae1118/Cordova_jin/assets/115053276/5de63586-4d35-4cc0-948d-08b76b033162">
 
+***
 # 3주차
 [나의 소개 페이지 2](https://sorae1118.github.io/Cordova_jin/week3/report/index.html)
 ### 미리보기
@@ -13,6 +14,7 @@
 <img width="700" alt="스크린샷 2023-10-25 오전 11 32 58" src="https://github.com/Sorae1118/Cordova_jin/assets/115053276/cdc4be8c-57a9-45be-95db-b22eaf51a2f2">
 <img width="700" alt="스크린샷 2023-10-25 오전 11 33 04" src="https://github.com/Sorae1118/Cordova_jin/assets/115053276/fd3f0135-cc4c-452f-b2ac-6e2d09a5e8df">
 
+***
 # 4주차
 [나의 소개 페이지 3](https://sorae1118.github.io/Cordova_jin/week4/report/index.html)
 ### 미리보기
@@ -21,6 +23,7 @@
 <img width="300" alt="스크린샷 2023-10-06 오후 5 17 17" src="https://github.com/Sorae1118/Cordova_jin/assets/115053276/aeb96b6e-b9a5-4f29-84b7-be0d3fd348af">
 <img width="300" alt="스크린샷 2023-10-06 오후 5 17 25" src="https://github.com/Sorae1118/Cordova_jin/assets/115053276/5bf71710-0686-42b7-8ed0-c114821df256">
 
+***
 # 5주차
 [학교 소개 페이지](https://sorae1118.github.io/Cordova_jin/week5/report/index.html)
 ### 미리보기
@@ -30,6 +33,7 @@
 <img width="300" src="https://github.com/Sorae1118/Cordova_jin/assets/115053276/b42bc63b-6a02-4011-8964-42cd9aa3fb8e"/>
 <img width="300" src="https://github.com/Sorae1118/Cordova_jin/assets/115053276/acbe11f5-ad52-4fc5-a50c-3a9d0d8d71f0"/>
 
+***
 # 9주차
 [학교 소개 페이지 Jquery 응용](https://sorae1118.github.io/Cordova_jin/week9/report/index.html)
 ### 미리보기
