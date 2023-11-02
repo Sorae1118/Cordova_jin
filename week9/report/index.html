@@ -1,0 +1,145 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>동의과학대학교 소개 페이지</title>
+<link rel="stylesheet" href="https://code.jquery.com/mobile/1.0/jquery.mobile-1.0.min.css" />
+<link rel="stylesheet" href="index.css">
+<script src="https://code.jquery.com/jquery-1.6.4.min.js"></script>
+<script src="https://code.jquery.com/mobile/1.0/jquery.mobile-1.0.min.js"></script>
+</head>
+
+<body>
+<div data-theme="e">
+	<div data-role="page" id="home" >
+		<div data-role="header" data-theme="e" >
+			<h1>동의과학대학교 소개 앱</h1>
+		</div>
+		<div data-role="content" style="text-align:center">
+				<img src="image_mp3/DIT.png" >
+			<ul data-role="listview" data-inset="true">
+				<li><a href="#intro">대학 소개</a></li>
+				<li><a href="#movie" data-rel="dialog">학교 영상</a></li>
+				<li><a href="#wizard3-1" data-rel="dialog">대학 상징/교가</a></li>
+				<li><a href="#gallery">관련 사진</a></li>
+			</ul>
+		</div>
+		<div data-role="footer" data-position="fixed" data-theme="e">
+			<h1>동의과학대학교</h1>
+		</div>
+	</div>
+	
+	<div data-role="page" id="intro" data-theme="e">
+		<div data-role="header" data-theme="e">
+			<a href="#home" data-icon="arrow-l" data-direction="reverse">처음</a>			
+			<h1>대학 소개</h1>
+		</div>
+		<div data-role="content">
+				<div  style="text-align:center">
+					<img src="image_mp3/DIT.png">
+				</div>			
+			<div data-role="collapsible-set" data-theme="e" data-content-theme="e">
+				<div data-role="collapsible" data-collapsed="false">
+					<h3>설립 이념</h3>
+					<p>본 대학은 동의학원 설립자인 故 석당 김임식 박사의 학원설립 이념인 '동의지천(東義知天)'에 바탕을 두고 있다. '동의(東義)'와 '지천(知天)'은 동의과학대학교가 지향해야 할 대명제이자 교육 지표로서 동의학원의 설립이념이자 건학정신이라고 할 수 있다.</p>
+				</div>
+				<div data-role="collapsible">
+					<h3>대학 비전</h3>
+					<p>ACE 직업교육 : 현장 직무 중심의 선도적 역량기반의 교육과정.</p>
+					<p>ACE 인재 양성 :  미래사회 수요에 대응하여 혁신성장을 선도하는 창의융햡형 인재양성</p>
+				</div>
+				<div data-role="collapsible" >
+					<h3>대학 발전 계획</h3>
+					<p>탐구하고 선도하는 지식인 - 대학의 본질인 학문탐구와 인격도야를 위하여 끊임없이 노력하며,복지국가 건설과 인류문화의 증진을 위해 창조적 역량을 발휘한다.</p>
+					<p>성실하고 기술인 - 참 나를 이해하고 삶의 철학의 토대위에서 전문기술 연마에 정진하며 성실한 태도로 모든 일에 정성을 다하는 생활자세를 확립한다.</p>
+					<p>협력하고 실천하는 전문인 - 창의성과 성실성을 바탕으로 가정과 사회, 나아가 국가와 인류세계에 봉사하며, 스스로 협동정신을 발휘하고 이를 행동으로 실천한다.</p>
+				</div>
+			</div>
+		</div>
+		<div data-role="footer" data-position="fixed" data-theme="e">
+			<h1>동의과학대학교</h1>
+		</div>		
+	</div>
+	
+	<div data-role="page" id="movie" data-theme="e">
+		<div data-role="header" data-position="fixed" data-theme="e">
+			<h1>학교 영상</h1>
+		</div>
+		<div data-role="content" >
+			<div class="ui-bar ui-bar-e">동의과학대학교 캠퍼스를 소개합니다!</div><br/>
+			<li><iframe width="100%" height="240" src="https://www.youtube.com/embed/xi1SdV5ZqNQ?si=XZ-p_jrBHQRF6CBZ"></iframe></li><br/>
+			<div class="ui-bar ui-bar-e">컴퓨터소프트웨어과 소개 영상</div><br/>
+			<li><iframe width="100%" height="240" src="https://www.youtube.com/embed/5DZtoD9njmA?si=O0QfETq4Ctjjd5Dd"></iframe></li><br/>
+		</div>
+		<div data-role="footer" data-theme="e">
+		</div>
+	</div>
+	
+	<div data-role="page" id="wizard3-1">
+		<div data-role="header">
+			<h1>대학 상징</h1>
+		</div>
+		<div data-role="content">
+			<div class="ui-bar ui-bar-e">상징 동물 - 호랑이상</div><br/>
+			<p>동의과학대학교 학생의 진취적인 기상과 웅지를 담고 있습니다.</p>
+			<p>또한 동의과학대학교의 무궁한 발전과 끈기 있는 도전을 희망합니다</p>
+			<img src="image_mp3/대학상징.jpg" alt="" width="100%">
+		</div>
+		<div data-role="footer">
+			<a href="#home"  data-direction="reverse">이전</a>
+			<a href="#wizard3-2" data-rel="dialog" data-transition="slide">다음</a>
+		</div>
+	</div>
+
+	<div data-role="page" id="wizard3-2">
+		<div data-role="header">
+			<h1>교가</h1>
+		</div>
+		<div data-role="content">
+			<div class="ui-bar ui-bar-e">동의과학대학교 교가</div><br/>
+			<audio controls width="100%" preload="metadata">
+				<source src="image_mp3/song.mp3" type="audio/mp3">
+			</audio>			
+			<img src="image_mp3/교가.png" alt="" width="100%">
+		</div>
+		<div data-role="footer">
+			<a href="#wizard3-1"  data-direction="reverse">이전</a>
+			<a href="#home">처음</a>
+		</div>
+	</div>
+
+	<div data-role="page" id="gallery"  data-theme="e">
+		<div data-role="header" data-position="fixed"  data-theme="e">
+			<a href="#home" data-icon="arrow-l" data-direction="reverse">처음</a>
+			<h1>관련 사진</h1>
+		</div>
+		<div data-role="content" class="container">
+            <ul class="picture">
+				<li><a href="image_mp3/d1.jpeg" rel="external"><img src="image_mp3/d1.jpeg" /></a></li>	
+				<li><a href="image_mp3/d2.jpg"  rel="external"><img src="image_mp3/d2.jpg" /></a></li>	
+				<li><a href="image_mp3/d3.jpg" rel="external"><img src="image_mp3/d3.jpg" /></a></li>	
+				<li><a href="image_mp3/d4.jpg" rel="external"><img src="image_mp3/d4.jpg" /></a></li>	
+				<li><a href="image_mp3/d5.jpeg" rel="external"><img src="image_mp3/d5.jpeg" /></a></li>	
+				<li><a href="image_mp3/d6.jpeg" rel="external"><img src="image_mp3/d6.jpeg" /></a></li>	
+				<li><a href="image_mp3/d7.jpg" rel="external"><img src="image_mp3/d7.jpg" /></a></li>	
+				<li><a href="image_mp3/d8.jpg" rel="external"><img src="image_mp3/d8.jpg" /></a></li>	
+				<li><a href="image_mp3/d9.jpg" rel="external"><img src="image_mp3/d9.jpg" /></a></li>	 
+				<li><a href="image_mp3/d10.jpeg" rel="external"><img src="image_mp3/d10.jpeg" /></a></li>    
+				<li><a href="image_mp3/d11.jpg" rel="external"><img src="image_mp3/d11.jpg" /></a></li>   
+				<li><a href="image_mp3/d12.jpeg" rel="external"><img src="image_mp3/d12.jpeg" /></a></li>
+            </ul>
+		</div>
+		<div data-role="footer" data-position="fixed" data-theme="e">
+			<h1>동의과학대학교</h1>
+		</div>		
+	</div>
+</div>	
+</body>
+
+<script>
+	$('.picture').addClass('card');
+	$('.picture').find('li').addClass('img-container');
+	$('.picture').find('img').addClass('img');
+</script>
+</html>
