@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <title>Document</title>
+    <script>
+        jQuery(document).ready( function() {
+            console.log("문서 준비 이벤트 핸들러가 동작했습니다.");
+            jQuery('div').click( function() {
+                console.log("div 노드 개수 " + $('div').length);
+            })
+        });
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

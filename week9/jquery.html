@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <title>Document</title>
+    <script>
+        function init() {
+            msg1();
+        }
+        function msg1() {
+            alert('msg1() : 문서로드 후 자동으로 경고창을 표시함');
+        }
+        function msg2() {
+            document.getElementById('id2').innerHTML = '<div style="background:silver">msg2() : HTML 5 문서 변경 되었습니다. </div>';
+        }
+    </script>
+</head>
+<body onload="init();"> <!-- 브라우저가 <body>태그의 모든 내용을 읽은 직후 발생하는 이벤트 -->
+    <button onClick="msg2();">선택하면 메세지가 변경됩니다.</button><br>
+    <div id="id2">메세지 : </div>
+</body>
+</html>
