@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <title>토스</title>
+</head>
+
+<body>
+    <header>
+        <div class="header-left">
+            <img onclick="mainPage()" src="img/toss.webp" alt="Toss 로고">
+        </div>
+        <div class="header-right">
+            <div>
+                <button class="header-download">앱 다운로드</button>
+                <div class="download-dropdown">
+                    <ul>
+                        <li onclick="downloadOption('AppStore'); applePage();"><img src="img/apple.png">App Store</li>
+                        <li onclick="downloadOption('GooglePlay'); googleplayPage();"><img src="img/googleplay.png">Google Play</li>
+                        <!-- 다른 다운로드 옵션을 필요에 따라 추가할 수 있습니다 -->
+                    </ul>
+                </div>
+            </div>
+            <div class="header-menu">
+                <img src="img/menu.png" alt="메뉴 아이콘">
+                <div class="menu-dropdown">
+                    <ul>
+                        <li onclick="introPage()">회사 소개</li>
+                        <li onclick="chanPage()">토스 채널</li>
+                        <li onclick="mapPage()">찾아오는 길</li>
+                        <!-- Add more menu items as needed -->
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="main-intro">
+            <div class="main-intro-content" style="display: none;">
+                <h1>금융의 모든 것</h1>
+                <h1>토스에서</h1>
+                <h1>쉽고 간편하게</h1>
+                <div class="main-intro-buttons">
+                    <button onclick="applePage()"><img src="img/apple.png">App Store</button>
+                    <button onclick="googleplayPage()"><img src="img/googleplay.png"> Google Play</button>
+                </div>
+            </div>
+            <div class="main-scroll" style="display: none;">
+                <img id="myButton" src="img/scroll.png" alt="">
+            </div>
+        </div>
+
+        <div class="main-info" id="mainInfo">
+            <a>내 모든 금융 내역을 한눈에</a>
+            <a>조회하고 한 곳에서 관리하세요.</a>
+            <a>이제껏 경험 못 했던</a>
+            <a>쉽고 편리한 금융 서비스,</a>
+            <a>토스와 함께라면</a>
+            <a>당신의 일상이 새로워질 거예요.</a>
+            <img src="img/tossgif.gif" alt="">
+        </div>
+    </main>
+
+    <footer>
+        <div>
+            <p style="color: aliceblue;">고객센터</p>
+            <p>전화 : 0000-0000</p>
+            <p>이메일 : support@toss.im</p>
+            <p>이메일(외부기관전용) : safe@toss.im</p>
+            <p>민원 접수</p>
+        </div>
+        <div>
+            <p>웹 디자인 출처 : toss.im</p>
+            <p>서비스 이용약관</p>
+            <p>통합 금융정보 서비스 약관</p>
+            <p>이용자의 권리 및 유의사항</p>
+        </div>
+    </footer>
+</body>
+<script src="js/index.js"></script>
+
+</html>

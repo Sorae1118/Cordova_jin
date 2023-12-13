@@ -1,0 +1,171 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/*----------------header-------------------------*/
+header {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    top: 0;
+}
+
+.header-left img {
+    max-height: 20px; /* 이미지의 최대 높이를 조절합니다. */
+    width: auto; /* 이미지의 너비를 자동으로 조정 */
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.header-right {
+    display: flex;
+    justify-content: center;
+}
+
+.header-right img {
+    max-height: 30px; /* 메뉴 아이콘의 높이를 조절 */
+    width: auto;
+    margin-left: 10px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.header-download {
+    background-color: #3471db; /* 파란색 */
+    color: white;
+    padding: 8px 16px; /* 조정된 패딩 */
+    font-size: 14px; /* 조정된 글자 크기 */
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* 다운로드 드롭다운 css */
+.download-dropdown {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    min-width: 200px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.download-dropdown ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.download-dropdown li {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.download-dropdown img {
+    width: 15px;
+    padding-right: 10px;
+}
+
+.download-dropdown li:hover {
+    background-color: #f0f0f0;
+}
+
+.header-download:hover {
+    background-color: #1158d3;
+}
+
+/* 메뉴 드롭다운 css*/
+.menu-dropdown {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.menu-dropdown ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu-dropdown li {
+    padding: 20px;
+    cursor: pointer;
+    color: #5b5b5b;
+    font-size: 15px;
+}
+
+.menu-dropdown li:hover {
+    background-color: #f0f0f0;
+}
+
+/*----------------main---------------------------*/
+.main-intro {
+    height: 160vh;
+    padding: 20px;
+    display: flex;
+    flex-direction: column; /*위에서 아래로 수직 배치*/
+    /* justify-content: center; /*세로 기준 중앙 정렬*/
+    text-align: center; /* 가로 중앙 정렬*/
+    background-image: url("../img/chart.jpg");
+} 
+
+.main-change {
+    margin-top: 70px;
+    height: 50vh;
+    padding: 10px;
+    display: flex;
+    flex-direction: column; /*위에서 아래로 수직 배치*/
+    text-align: center; /* 가로 중앙 정렬*/
+}
+
+.main-change a {
+    font-size: 27px;
+    font-weight: bold;
+    color: white;
+}
+
+.main-change p {
+    color: #9f9fa0;
+}
+
+.main-text {
+    margin-top: 60px;
+    background-color: #5b5b5b;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+.main-change p {
+    font-size: 20px;
+}
+.main-text a {
+    font-size: 20px;
+}
+
+#ptext {
+    color: white;
+    font-size: 40px;
+}
+/*----------------footer-------------------------*/
+footer {
+    background-color: rgb(19, 19, 31);
+    color: rgb(81, 81, 86);
+    font-size: 15px;
+    padding: 30px;
+    bottom: 0;
+}
