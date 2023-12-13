@@ -2,17 +2,17 @@
 # 2주차
 [나의 소개 페이지 1](https://sorae1118.github.io/Cordova_jin/week2/report/index.html)
 ### 미리보기
-<img width="700" alt="스크린샷 2023-10-25 오전 11 32 11" src="https://github.com/Sorae1118/Cordova_jin/assets/115053276/60efb5df-59bc-4332-8108-2a1f2fee3999">
-<img width="700" alt="스크린샷 2023-10-25 오전 11 32 16" src="https://github.com/Sorae1118/Cordova_jin/assets/115053276/8c8cf9d8-2df9-4112-89a2-61d60eed6e71">
-<img width="700" alt="스크린샷 2023-10-25 오전 11 32 20" src="https://github.com/Sorae1118/Cordova_jin/assets/115053276/5de63586-4d35-4cc0-948d-08b76b033162">
+<img width="300" alt="스크린샷 2023-10-25 오전 11 32 11" src="https://github.com/Sorae1118/Cordova_jin/assets/115053276/60efb5df-59bc-4332-8108-2a1f2fee3999">
+<img width="300" alt="스크린샷 2023-10-25 오전 11 32 16" src="https://github.com/Sorae1118/Cordova_jin/assets/115053276/8c8cf9d8-2df9-4112-89a2-61d60eed6e71">
+<img width="300" alt="스크린샷 2023-10-25 오전 11 32 20" src="https://github.com/Sorae1118/Cordova_jin/assets/115053276/5de63586-4d35-4cc0-948d-08b76b033162">
 
 ***
 # 3주차
 [나의 소개 페이지 2](https://sorae1118.github.io/Cordova_jin/week3/report/index.html)
 ### 미리보기
-<img width="700" alt="스크린샷 2023-10-25 오전 11 32 49" src="https://github.com/Sorae1118/Cordova_jin/assets/115053276/3b3226df-fb28-4359-ab75-25f8dc1a9e71">
-<img width="700" alt="스크린샷 2023-10-25 오전 11 32 58" src="https://github.com/Sorae1118/Cordova_jin/assets/115053276/cdc4be8c-57a9-45be-95db-b22eaf51a2f2">
-<img width="700" alt="스크린샷 2023-10-25 오전 11 33 04" src="https://github.com/Sorae1118/Cordova_jin/assets/115053276/fd3f0135-cc4c-452f-b2ac-6e2d09a5e8df">
+<img width="300" alt="스크린샷 2023-10-25 오전 11 32 49" src="https://github.com/Sorae1118/Cordova_jin/assets/115053276/3b3226df-fb28-4359-ab75-25f8dc1a9e71">
+<img width="300" alt="스크린샷 2023-10-25 오전 11 32 58" src="https://github.com/Sorae1118/Cordova_jin/assets/115053276/cdc4be8c-57a9-45be-95db-b22eaf51a2f2">
+<img width="300" alt="스크린샷 2023-10-25 오전 11 33 04" src="https://github.com/Sorae1118/Cordova_jin/assets/115053276/fd3f0135-cc4c-452f-b2ac-6e2d09a5e8df">
 
 ***
 # 4주차
