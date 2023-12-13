@@ -39,4 +39,13 @@
 ### 미리보기
 <img width="300" src="https://github.com/Sorae1118/Cordova_jin/assets/115053276/4e50d646-21f4-4e85-be35-34ba4184dd21"/>
 
+***
+# 9주차
+[학교 소개 페이지 Jquery 응용](https://sorae1118.github.io/Cordova_jin/week9/report/index.html)
+### 미리보기
+<img width="300" src="https://github.com/Sorae1118/Cordova_jin/assets/115053276/b8597db1-82fc-4fda-b51d-f13797bb42e1"/>
+<img width="300" src="https://github.com/Sorae1118/Cordova_jin/assets/115053276/34790120-c856-4eb7-84d7-95c72259b040"/>
+<img width="300" src="https://github.com/Sorae1118/Cordova_jin/assets/115053276/3db01843-aa4a-4d87-b06b-cd0e6a8a8162"/>
+<img width="300" src="https://github.com/Sorae1118/Cordova_jin/assets/115053276/b33b47f2-f3c3-40b9-afd8-81cafa7de4b5"/>
+<img width="300" src="https://github.com/Sorae1118/Cordova_jin/assets/115053276/ac585f51-267e-4811-9043-431776e42762"/>
 
